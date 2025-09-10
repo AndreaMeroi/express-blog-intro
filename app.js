@@ -38,7 +38,7 @@ const posts = [
         titolo: 'torta_paesana',
         content: 'quanto è buona la torta_paesana',
         img: 'imagine5',
-        tags: ['torta_paesana', 'rustica', 'paesana'],
+        tags: ['torta_paesana', 'rustia', 'paesana'],
     },
 
 ];
