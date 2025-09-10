@@ -13,7 +13,7 @@ const posts = [
     {
         titolo: 'Ciambellone',
         content: 'quanto è buono il ciambellone',
-        img: 'immagine1',
+        img: ,
         tags: ['ciambella', 'dolce', 'rotondo'],
     },
     {
@@ -37,7 +37,7 @@ const posts = [
     {
         titolo: 'torta_paesana',
         content: 'quanto è buona la torta_paesana',
-        img: 'immagine5',
+        img: 'imagine5',
         tags: ['torta_paesana', 'rustica', 'paesana'],
     },
 
