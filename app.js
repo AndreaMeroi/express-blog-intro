@@ -47,6 +47,42 @@ app.get('/bacheca', (req, res) => {
     res.json(posts)
 })
 
+// Index
+
+app.get('/posts', (req, res) => {
+    res.send('Lista dei post')
+})
+
+// Show
+
+app.get('/posts/:id', (req, res) => {
+    res.send('Visualizza il post' + req.params.id)
+})
+
+// create
+
+app.post('/posts/', (req, res) => {
+    res.send('creazione nuovo post')
+})
+
+// Update the whole post
+
+app.put('/posts/:id', (req, res) => {
+    res.send('Modifica interamente il post' + req.params.id)
+})
+
+
+// Modify post
+
+app.patch('/posts/:id', (req, res) => {
+    res.send('Modifica interamente il post' + req.params.id)
+})
+
+// Destroy
+
+app.delete('/posts/:id', (req, res) => {
+    res.send('Cancellazione del post' + req.params.id)
+})
 
 
 app.listen(port, () => {
